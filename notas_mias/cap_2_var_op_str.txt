@@ -1,0 +1,46 @@
+Variables 
+var nombre = 'Fabian';
+let apellido = 'Noguleroles';
+const nocambia = 'constante';
+
+console.log();                  imprime en la pantalla todo lo que esta entre parentesis
+
+Tipos de datos
+
+String
+var nombrePerro = 'Pichichus';
+
+Numbres 
+var positivo = 33;
+var negativo = -16;
+
+Booleans
+
+var meGustaAlgo = true;
+var asco = false;
+
+Operadores
+
+var a = 2 + 3; // 5
+var b = 3 / 3; // 1
+
+Potenciacion
+Math.pow(2,2) = 4;
+Math.pow(3,2) = 9;
+Math.pow(3,3) = 27;
+
+Redondeo
+Math.round(6.5) = 7;    Redondea al mas cercano
+Math.round(6.45) = 6;   
+Math.floor(6.999) = 6;  Redondea al mas cercano hacia abajo
+Math.ceil(6.0001) = 7;  Resondea al mas carcano hacia arriba
+
+String
+.lengt cuanta la cantidad de caracteres
+var nombre = 'felix';
+console.log(nombre.length);  //5
+
+agregar caracteres a la string str + 'lo que sea?;
+
+> mayor que
+< menor que

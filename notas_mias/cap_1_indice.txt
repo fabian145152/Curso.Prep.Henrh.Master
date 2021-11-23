@@ -1,0 +1,30 @@
+cap 2
+    variables
+    console.log()
+    Tipos de datos  
+        string
+        numerales
+        booleanos
+    Operadores
+        suma
+        resta
+        Potenciacion
+        Redondeo
+    String
+        lengrh
+        movificar string
+
+cap 3
+    undefined
+    null
+    Operadores de comparacion
+    operadores logicos
+
+    if...
+    switch.case...
+    do.while...
+    
+
+
+
+

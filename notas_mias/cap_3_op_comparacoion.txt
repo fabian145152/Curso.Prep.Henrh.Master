@@ -1,0 +1,42 @@
+undefined   Significa que no existe, si busco una variable que no existe me da undefined
+
+null        Significa que si existe la variable pero el programador le asigno un valor nulo.
+
+> mayor que
+< menor que
+
+operadores de comparacion     (> >= < <= === !==)
+
+1 > 2;     // false
+2 < 3;     // true
+10 >= 10;  // true
+100 <= 1;  // false
+
+Operadores logicos
+and &&
+or ||           //alt+124
+not !
+
+if(a = 2){
+    return "a es igual a 2";
+}else{
+    return "es distinto";
+}
+
+
+switch y case
+switch (color){
+    case "red":
+    return "This is red";
+    case "green":
+    return "This is green;
+}
+
+Para probar programa en node boton derecho en brouser y console, ahi se ejecuta js
+
+var num = 1;
+do{
+    num = num + 1;
+}
+while(num<=9);
+

@@ -1,0 +1,28 @@
+﻿Uso de GitHub
+Primero: Guardar la URL del repositorio de GitHub con el nombre de origin
+git init
+git remote add origin URL
+
+Segundo: Verificar que la URL se haya guardado correctamente
+git remote
+git remote -v
+
+Tercero: Traer la versión del repositorio remoto 
+git pull origin master
+
+<<<<<<< HEAD
+Cuarto: 
+git init                                    Inicializo mi repositorio
+git status -s                               veo la modificaciones
+git add .                                   Actualizo mi repo local
+git commit -m "Primer Commit"               Agrego comentario
+git push -u origin master                   Subo todo a mi repo remoto
+
+git pull +la url                            Traigo todo del repo remoto
+=======
+Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:
+git push origin master
+
+Traer todo de github a mi repositorio local
+git pull https://github.com/fabian145152/Curso.Prep.Henry.git
+>>>>>>> 6bf3cd5fd7d9920bb4c4633d5da8a746bc5bcfdf
