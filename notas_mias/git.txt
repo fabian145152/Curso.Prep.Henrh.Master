@@ -19,6 +19,7 @@ git commit -m "Primer Commit"               Agrego comentario
 git push -u origin master                   Subo todo a mi repo remoto
 
 git pull +la url                            Traigo todo del repo remoto
+git push +la url                            Subo todo a repo remoto
 =======
 Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:
 git push origin master
