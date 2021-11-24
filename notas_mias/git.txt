@@ -16,7 +16,7 @@ git init                                    Inicializo mi repositorio
 git status -s                               veo la modificaciones
 git add .                                   Actualizo mi repo local
 git commit -m "Primer Commit"               Agrego comentario
-git push -u origin master                   Subo todo a mi repo remoto
+
 
 git pull +la url                            Traigo todo del repo remoto
 git push +la url                            Subo todo a repo remoto

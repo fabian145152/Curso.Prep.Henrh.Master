@@ -1,0 +1,61 @@
+array coleccion de datos
+
+Ejemplo
+var colores = ["rojo","azul","verde","amarillo"];
+
+acceder
+colores[1];
+"azul"
+
+conocer la cantidad de elementos del array 
+colores.length;
+3
+
+tambien puedo establecer la cant de elementos.
+colores.length = 2;
+quedaria:
+["rojo","azul"]
+
+agregar elementos al final de array
+colores[colores.length] = "amarillo"
+se agrega al final del mismo
+
+colores.shift();
+"rojo"
+
+colores.unshift("anaranjado");
+["anaranjado","rojo","azul","verde","amarillo"]
+
+colores.push ("negro","blanco")
+acepta cualquier numero de argumentos y los pone al final del array
+
+colores.pop();
+elimina el ultimo elemento del array
+
+colores.reverse();
+invierte el orden de los colores
+
+colores.sort();
+los ordena alfabeticamente pero tienen que ser alfanumericos si no puede dar errores
+
+colores.slice(1,3)
+establece el inicio y parada de posiciones
+si le damos un solo argumento 
+
+supresion de elementos
+colores.splice(0,2);
+Suprime cualquier numero de elementos ej el 0 1 y 2
+
+insercion de elementos
+var colores =  ["amarillo", "anaranjado", "azul", "rojo", "verde"];
+colores.splice(1,0,'pepe');
+["amarillo", "pepe", "anaranjado", "azul", "rojo", "verde"]
+
+Reemplazar elementos
+var colores =  ["amarillo", "anaranjado", "azul", "rojo", "verde"];
+colores.splice(2, 1, "morado", " violeta");
+["amarillo", "anaranjado", "morado", " violeta", "rojo", "verde"]
+
+unir string
+palabras.join(' ');
+
